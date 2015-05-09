@@ -9,7 +9,7 @@ using WeirdTextLibrary.Statistics;
 namespace WeirdTextLibrary.StatisticWriters
 {
     /// <summary>
-    ///интерфейс для записи статистики в поток
+    /// Интерфейс для записи статистики в поток
     /// </summary>
     public class BaseStatisticStreamWriter : BaseStatisticWriter
     {

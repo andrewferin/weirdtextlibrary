@@ -39,19 +39,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Checkers\Files\FileNameChecker.cs" />
+    <Compile Include="Checkers\Files\FileNameUserChecker.cs" />
     <Compile Include="Constants\ErrorMessages.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Statistics\WordFrequencyStatistic.cs" />
-    <Compile Include="Statistics\WordCountStatistic.cs" />
     <Compile Include="Statistics\BaseStatistic.cs" />
+    <Compile Include="StatisticWriters\BaseStatisticSqlServerWriter.cs" />
     <Compile Include="StatisticWriters\BaseStatisticStreamWriter.cs" />
     <Compile Include="StatisticWriters\BaseStatisticConsoleWriter.cs" />
-    <Compile Include="StatisticWriters\WordCountConsoleWriter.cs" />
     <Compile Include="StatisticWriters\WordFrequencyStreamWriter.cs" />
     <Compile Include="StatisticWriters\WordFrequencyConsoleWriter.cs" />
     <Compile Include="StatisticWriters\BaseStatisticWriter.cs" />
-    <Compile Include="TextProcessors\WordCountProcessor.cs" />
     <Compile Include="TextProcessors\WordFrequencyProcessor.cs" />
     <Compile Include="TextProcessors\BaseTextProcessor.cs" />
   </ItemGroup>

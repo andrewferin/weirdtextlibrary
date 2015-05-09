@@ -5,9 +5,9 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeirdTextLibrary", "WeirdTextLibrary\WeirdTextLibrary.csproj", "{42109130-8182-4C8A-8C7A-EB9F10C243BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDemoApp", "ConsoleDemoApp\ConsoleDemoApp.csproj", "{5D448913-F07E-4674-AAFB-78F633A7569F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDemo", "ConsoleDemoApp\ConsoleDemo.csproj", "{5D448913-F07E-4674-AAFB-78F633A7569F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextStatisticLibrary", "TextStatisticLibrary\TextStatisticLibrary.csproj", "{E69B7A84-AE63-4506-85EC-964CD4CC76CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppDemo", "WebAppDemo\WebAppDemo.csproj", "{8DCF2791-2C90-4762-AE74-E885F72FD8DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{5D448913-F07E-4674-AAFB-78F633A7569F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D448913-F07E-4674-AAFB-78F633A7569F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D448913-F07E-4674-AAFB-78F633A7569F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E69B7A84-AE63-4506-85EC-964CD4CC76CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E69B7A84-AE63-4506-85EC-964CD4CC76CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E69B7A84-AE63-4506-85EC-964CD4CC76CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E69B7A84-AE63-4506-85EC-964CD4CC76CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DCF2791-2C90-4762-AE74-E885F72FD8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DCF2791-2C90-4762-AE74-E885F72FD8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DCF2791-2C90-4762-AE74-E885F72FD8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DCF2791-2C90-4762-AE74-E885F72FD8DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

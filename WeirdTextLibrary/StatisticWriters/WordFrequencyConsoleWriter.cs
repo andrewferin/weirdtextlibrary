@@ -22,7 +22,7 @@ namespace WeirdTextLibrary.StatisticWriters
 
             // вывод с сортировкой по ключу
             foreach (var key in result.Items.Keys.OrderBy(x => x))
-                Console.WriteLine("{0}: {1}", key, result.Items[key]);
+                Console.WriteLine("{0} = {1}", key, result.Items[key]);
         }
     }
 }

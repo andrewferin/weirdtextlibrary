@@ -1,0 +1,8 @@
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\WebDemo\bin\WebDemo.dll.config
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\WebDemo\bin\WebDemo.dll
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\WebDemo\bin\WebDemo.pdb
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\WebDemo\obj\Debug\WebDemo.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\WebDemo\obj\Debug\WebDemo.dll
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\WebDemo\obj\Debug\WebDemo.pdb
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\WebDemo\bin\WeirdTextLibrary.dll
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\WebDemo\bin\WeirdTextLibrary.pdb

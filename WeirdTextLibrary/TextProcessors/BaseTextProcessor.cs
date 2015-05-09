@@ -15,9 +15,13 @@ namespace WeirdTextLibrary.TextProcessors
     {
         protected BaseTextProcessor() 
         {
-
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="reader">Входной поток</param>
+        /// <returns>Объект статистики</returns>
         public abstract BaseStatistic Process(StreamReader reader);
     }
 }
