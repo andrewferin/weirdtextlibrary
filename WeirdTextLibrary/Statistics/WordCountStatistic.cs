@@ -12,7 +12,7 @@ namespace WeirdTextLibrary.Statistics
     public class WordCountStatistic : BaseStatistic
     {
         public WordCountStatistic(int count) { Count = count; }
-        
+
         public int Count { get; protected set; }
     }
 }

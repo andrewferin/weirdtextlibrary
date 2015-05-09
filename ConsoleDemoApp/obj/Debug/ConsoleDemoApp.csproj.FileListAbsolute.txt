@@ -6,4 +6,5 @@ C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\ConsoleDemoApp\bin\Debug\Weird
 C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\ConsoleDemoApp\bin\Debug\WeirdTextLibrary.pdb
 C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\ConsoleDemoApp\obj\Debug\ConsoleDemoApp.exe
 C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\ConsoleDemoApp\obj\Debug\ConsoleDemoApp.pdb
-C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\ConsoleDemoApp\bin\Debug\TestFile.txt
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\ConsoleDemoApp\bin\Debug\TestOutputFile.txt
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\ConsoleDemoApp\bin\Debug\TestInputFile.txt

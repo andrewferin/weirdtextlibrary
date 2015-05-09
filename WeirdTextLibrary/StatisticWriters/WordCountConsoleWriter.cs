@@ -5,9 +5,9 @@ using WeirdTextLibrary.Statistics;
 namespace WeirdTextLibrary.StatisticWriters
 {
     /// <summary>
-    /// Интерфейс для записи статистики по количеству слов в консоль
+    /// Интерфейс для записи статистики по количеству слов в консоль (добавлен для примера)
     /// </summary>
-    public class WordCountConsoleWriter : BaseStatisticWriter
+    public class WordCountConsoleWriter : BaseStatisticConsoleWriter
     {
         public override void Write(BaseStatistic statistic)
         {

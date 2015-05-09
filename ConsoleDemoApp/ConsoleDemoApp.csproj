@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleArgumentCheckers\FileNameChecker.cs" />
-    <Compile Include="Constants\ErrorMessages.cs" />
+    <Compile Include="CustomCharStatisticStreamWriter.cs" />
+    <Compile Include="CustomCharStatisticConsoleWriter.cs" />
+    <Compile Include="CustomCharStatisticProcessor.cs" />
+    <Compile Include="CustomCharStatistic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -56,7 +58,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="TestFile.txt">
+    <Content Include="TestOutputFile.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestInputFile.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

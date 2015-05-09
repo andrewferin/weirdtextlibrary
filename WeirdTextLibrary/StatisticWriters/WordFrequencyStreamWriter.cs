@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WeirdTextLibrary.Constants;
 using WeirdTextLibrary.Statistics;
 
@@ -11,8 +9,10 @@ namespace WeirdTextLibrary.StatisticWriters
     /// <summary>
     /// Интерфейс для записи статистики по частоте слов в консоль
     /// </summary>
-    public class WordFrequencyConsoleWriter : BaseStatisticConsoleWriter
+    public class WordFrequencyStreamWriter : BaseStatisticStreamWriter
     {
+        public WordFrequencyStreamWriter(StreamWriter writer) : base(writer) { }
+
         public override void Write(BaseStatistic statistic)
         {
             // проверим тип статистики
@@ -22,7 +22,7 @@ namespace WeirdTextLibrary.StatisticWriters
 
             // вывод с сортировкой по ключу
             foreach (var key in result.Items.Keys.OrderBy(x => x))
-                Console.WriteLine("{0}: {1}", key, result.Items[key]);
+                this.Writer.WriteLine("{0}: {1}", key, result.Items[key]);
         }
     }
 }
