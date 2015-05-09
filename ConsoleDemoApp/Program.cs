@@ -37,7 +37,7 @@ namespace ConsoleDemoApp
         {
             CharStatistic output = statistics as CharStatistic;
             if (output == null)
-                throw new Exception(WeirdTextLibrary.Constants.ErrorMessages.WriterInvalidStatisticsResult);
+                throw new Exception(WeirdTextLibrary.Constants.ErrorMessages.WriterInvalidStatistic);
 
             Console.WriteLine("Chars total: {0}", output.Count);
         }
@@ -45,7 +45,6 @@ namespace ConsoleDemoApp
         
     class Program
     {
-
         static void ProcessFile(string fileName)
         {
             // проверим его

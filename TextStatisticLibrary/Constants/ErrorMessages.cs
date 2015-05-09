@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WeirdTextLibrary.Constants
+namespace TextStatisticLibrary.Constants
 {
     /// <summary>
     /// Ошибки 

@@ -18,7 +18,7 @@ namespace WeirdTextLibrary.StatisticWriters
             // проверим тип статистики
             WordFrequencyStatistic result = statistic as WordFrequencyStatistic;
             if (result == null)
-                throw new Exception(ErrorMessages.WriterInvalidStatisticsResult);
+                throw new Exception(ErrorMessages.WriterInvalidStatistic);
 
             // вывод с сортировкой по ключу
             foreach (var key in result.Items.Keys.OrderBy(x => x))

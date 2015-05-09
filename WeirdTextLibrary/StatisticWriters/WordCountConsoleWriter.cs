@@ -14,7 +14,7 @@ namespace WeirdTextLibrary.StatisticWriters
             // проверим тип
             WordCountStatistic result = statistic as WordCountStatistic;
             if (result == null)
-                throw new Exception(ErrorMessages.WriterInvalidStatisticsResult);
+                throw new Exception(ErrorMessages.WriterInvalidStatistic);
 
             // вывод
             Console.WriteLine("Words total: {0}", result.Count);
