@@ -1,0 +1,5 @@
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\WeirdTextLibrary\obj\Debug\WeirdTextLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\WeirdTextLibrary\bin\Debug\WeirdTextLibrary.dll
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\WeirdTextLibrary\bin\Debug\WeirdTextLibrary.pdb
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\WeirdTextLibrary\obj\Debug\WeirdTextLibrary.dll
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\WeirdTextLibrary\obj\Debug\WeirdTextLibrary.pdb

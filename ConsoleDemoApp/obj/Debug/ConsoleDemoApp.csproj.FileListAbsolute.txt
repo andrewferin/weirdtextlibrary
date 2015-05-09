@@ -1,0 +1,9 @@
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\ConsoleDemoApp\bin\Debug\ConsoleDemoApp.exe.config
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\ConsoleDemoApp\obj\Debug\ConsoleDemoApp.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\ConsoleDemoApp\bin\Debug\ConsoleDemoApp.exe
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\ConsoleDemoApp\bin\Debug\ConsoleDemoApp.pdb
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\ConsoleDemoApp\bin\Debug\WeirdTextLibrary.dll
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\ConsoleDemoApp\bin\Debug\WeirdTextLibrary.pdb
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\ConsoleDemoApp\obj\Debug\ConsoleDemoApp.exe
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\ConsoleDemoApp\obj\Debug\ConsoleDemoApp.pdb
+C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\ConsoleDemoApp\bin\Debug\TestFile.txt
