@@ -13,10 +13,10 @@ namespace WeirdTextLibrary.StatisticWriters
     /// </summary>
     public class WordFrequencyConsoleWriter : BaseStatisticWriter
     {
-        public override void Write(BaseStatistic baseResult)
+        public override void Write(BaseStatistic statistic)
         {
             // проверим тип статистики
-            WordFrequencyStatistic result = baseResult as WordFrequencyStatistic;
+            WordFrequencyStatistic result = statistic as WordFrequencyStatistic;
             if (result == null)
                 throw new Exception(ErrorMessages.WriterInvalidStatisticsResult);
 

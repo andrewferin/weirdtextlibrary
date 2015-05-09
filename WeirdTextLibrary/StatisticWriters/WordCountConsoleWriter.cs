@@ -9,15 +9,15 @@ namespace WeirdTextLibrary.StatisticWriters
     /// </summary>
     public class WordCountConsoleWriter : BaseStatisticWriter
     {
-        public override void Write(BaseStatistic baseResult)
+        public override void Write(BaseStatistic statistic)
         {
             // проверим тип
-            WordCountStatistic result = baseResult as WordCountStatistic;
+            WordCountStatistic result = statistic as WordCountStatistic;
             if (result == null)
                 throw new Exception(ErrorMessages.WriterInvalidStatisticsResult);
 
             // вывод
-            Console.WriteLine("Words count:\n{0}", result.Count);
+            Console.WriteLine("Words total: {0}", result.Count);
         }
     }
 }

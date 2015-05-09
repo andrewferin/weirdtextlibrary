@@ -16,6 +16,6 @@ namespace WeirdTextLibrary.StatisticWriters
         /// Запись
         /// </summary>
         /// <param name="baseResult">Статистика</param>
-        public abstract void Write(BaseStatistic baseResult);
+        public abstract void Write(BaseStatistic statistic);
     }
 }
