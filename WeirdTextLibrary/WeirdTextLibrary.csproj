@@ -47,6 +47,7 @@
     <Compile Include="StatisticWriters\BaseStatisticSqlServerWriter.cs" />
     <Compile Include="StatisticWriters\BaseStatisticStreamWriter.cs" />
     <Compile Include="StatisticWriters\BaseStatisticConsoleWriter.cs" />
+    <Compile Include="StatisticWriters\WordFrequencySqlServerWriter.cs" />
     <Compile Include="StatisticWriters\WordFrequencyStreamWriter.cs" />
     <Compile Include="StatisticWriters\WordFrequencyConsoleWriter.cs" />
     <Compile Include="StatisticWriters\BaseStatisticWriter.cs" />

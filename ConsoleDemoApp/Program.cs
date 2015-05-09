@@ -40,6 +40,10 @@ namespace ConsoleDemoApp
             using (StreamReader reader = new StreamReader(inputFileName))
             {
                 frequencyStatistic = new WordFrequencyProcessor().Process(reader);
+
+                // вывод результата в консоль
+                BaseStatisticWriter statisticWriter = new WordFrequencyConsoleWriter();
+                statisticWriter.Write(frequencyStatistic);
             }
 
             // вывод в результирующий файл
