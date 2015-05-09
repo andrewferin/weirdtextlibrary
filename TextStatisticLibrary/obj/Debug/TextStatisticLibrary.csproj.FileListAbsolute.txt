@@ -1,4 +1,0 @@
-C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\TextStatisticLibrary\bin\Debug\TextStatisticLibrary.dll
-C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\TextStatisticLibrary\bin\Debug\TextStatisticLibrary.pdb
-C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\TextStatisticLibrary\obj\Debug\TextStatisticLibrary.dll
-C:\Users\Andrew\Documents\GitHub\WeirdTextLibrary\TextStatisticLibrary\obj\Debug\TextStatisticLibrary.pdb
