@@ -17,19 +17,19 @@ namespace WeirdTextLibrary.StatisticWriters
         /// Поток для записи
         /// </summary>
         protected readonly StreamWriter Writer;
-        
+
         public BaseStatisticStreamWriter(StreamWriter writer)
         {
             Writer = writer;
         }
 
         /// <summary>
-        /// Базовое поведение ничего не делает
+        /// Данный метод не должен быть использован
         /// </summary>
         /// <param name="statistic"></param>
         public override void Write(BaseStatistic statistic)
         {
-            
+            throw new NotImplementedException();
         }
     }
 }

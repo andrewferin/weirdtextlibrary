@@ -21,8 +21,7 @@ namespace WeirdTextLibrary.StatisticWriters
             if (result == null)
                 throw new Exception(ErrorMessages.WriterInvalidStatistic);
 
-            // вывод с сортировкой по ключу
-            foreach (var key in result.Items.Keys.OrderBy(x => x))
+            foreach (var key in result.Items)
             {
                 //
             }

@@ -20,9 +20,8 @@ namespace WeirdTextLibrary.StatisticWriters
             if (result == null)
                 throw new Exception(ErrorMessages.WriterInvalidStatistic);
 
-            // вывод с сортировкой по ключу
-            foreach (var key in result.Items.Keys.OrderBy(x => x))
-                this.Writer.WriteLine("{0} = {1}", key, result.Items[key]);
+            foreach (var i in result.Items)
+                this.Writer.WriteLine("{0} = {1}", i.Word, i.Frequency);
         }
     }
 }
